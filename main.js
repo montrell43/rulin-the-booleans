@@ -2,6 +2,64 @@
  * YOUR CODE BELOW! *
  ********************/
 
+function moreThan5(num) {
+return num > 5;
+}
+
+function isNewTopScore(score, topScore) {
+return score > topScore;
+}
+
+function isInDanger(grade) {
+return grade === 60 || grade === 71;
+}
+
+function isCoasting(grade) {
+  return grade === 72 || grade === 83;
+
+}
+
+function isSucceeding(grade) {
+return grade === 84 || grade === 92;
+}
+
+function isFailing(grade) {
+return grade < 60;
+}
+
+function isAcing(grade) {
+return grade > 92 ;
+
+}
+
+function isStudent(role) {
+return role === "student";
+}
+
+function isTeacher(role) {
+return role === "teacher";
+}
+
+function isAdmin(role) {
+return role === "admin";
+}
+
+function isElementary(school) {
+return school === "elementary"
+}
+
+function areDifferentPeople(name, names) {
+return name !== names;
+}
+
+function isMiddleSchoolTeacher(role, school) {
+return role === "teacher" && school >= 6 && school <= 8
+}
+
+function notAnElementarySchoolAdministrator(school, role) {
+  return !(school === "elementary" && role === "admin");
+}
+
 
 
 /********************************************************************************************
